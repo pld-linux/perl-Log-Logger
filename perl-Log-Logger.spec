@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Logger
-Summary:	Log-Logger perl module
-Summary(pl):	Modu³ perla Log-Logger
+Summary:	Log::Logger perl module
+Summary(pl):	Modu³ perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Log-Logger - OO interface to user defined logfile.
+Log::Logger - OO interface to user defined logfile.
 
 %description -l pl
-Log-Logger - obiektowy interfejs do pliku logów u¿ytkownika.
+Log::Logger - obiektowy interfejs do pliku logów u¿ytkownika.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
