@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dbda4602f2eaad56472215d2734a6b6f
