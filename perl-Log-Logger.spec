@@ -26,7 +26,7 @@ Log::Logger - obiektowy interfejs do pliku logów u¿ytkownika.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
