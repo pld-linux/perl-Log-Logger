@@ -5,11 +5,11 @@ Summary:	Log::Logger perl module
 Summary(pl):	Modu³ perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,7 +24,8 @@ Log::Logger - obiektowy interfejs do pliku logów u¿ytkownika.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -38,5 +39,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Log/Logger.pm
+%{perl_vendorlib}/Log/Logger.pm
 %{_mandir}/man3/*
