@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Log
 %define	pnam	Logger
-%include	/usr/lib/rpm/macros.perl
 Summary:	Log-Logger perl module
 Summary(pl):	Modu³ perla Log-Logger
 Name:		perl-Log-Logger
 Version:	1.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Log-Logger - OO interface to user defined logfile.
 Log-Logger - obiektowy interfejs do pliku logów u¿ytkownika.
 
 %prep
-%setup -q -n Log-Logger-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
