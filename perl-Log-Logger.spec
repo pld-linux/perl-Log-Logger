@@ -2,7 +2,7 @@
 %define		pdir	Log
 %define		pnam	Logger
 Summary:	Log::Logger perl module
-Summary(pl):	Modu≥ perla Log::Logger
+Summary(pl.UTF-8):   Modu≈Ç perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
 Release:	10
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Log::Logger - OO interface to user defined logfile.
 
-%description -l pl
-Log::Logger - obiektowy interfejs do pliku logÛw uøytkownika.
+%description -l pl.UTF-8
+Log::Logger - obiektowy interfejs do pliku log√≥w u≈ºytkownika.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
