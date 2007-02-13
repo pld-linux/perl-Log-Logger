@@ -2,7 +2,7 @@
 %define		pdir	Log
 %define		pnam	Logger
 Summary:	Log::Logger perl module
-Summary(pl.UTF-8):   Moduł perla Log::Logger
+Summary(pl.UTF-8):	Moduł perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
 Release:	10
