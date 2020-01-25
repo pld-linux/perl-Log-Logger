@@ -1,6 +1,5 @@
 %define		pdir	Log
 %define		pnam	Logger
-%include	/usr/lib/rpm/macros.perl
 Summary:	Log::Logger perl module
 Summary(pl.UTF-8):	Moduł perla Log::Logger
 Name:		perl-Log-Logger
