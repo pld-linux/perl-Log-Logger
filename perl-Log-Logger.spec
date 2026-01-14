@@ -4,7 +4,7 @@ Summary:	Log::Logger perl module
 Summary(pl.UTF-8):	Moduł perla Log::Logger
 Name:		perl-Log-Logger
 Version:	1.01
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
